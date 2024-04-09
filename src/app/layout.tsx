@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={saira.className}>{children}</body>
+      <body className={`${saira.className} bg-gray-300`}>{children}</body>
     </html>
   );
 }
