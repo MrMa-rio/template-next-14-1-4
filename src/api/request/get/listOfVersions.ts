@@ -1,5 +1,3 @@
-import { ListOfVersionsDTO } from "@/interfaces/ListOfVersionsDTO/ListOfVersionsDTO"
-
 export const listOfVersions = async () => {
     try {
     const response = await fetch("", {
