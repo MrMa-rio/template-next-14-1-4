@@ -1,9 +1,9 @@
 "use client";
 
 import { Tutorial } from "@/components/Tutorial/Tutorial";
-import image001 from "@/TUTORIAL/001.png"
-import image002 from "@/TUTORIAL/002.png"
-import image003 from "@/TUTORIAL/003.png"
+import image001 from "@/TUTORIAL/tutorial1.png"
+import image002 from "@/TUTORIAL/tutorial2.png"
+import image003 from "@/TUTORIAL/tutorial3.png"
 import image004 from "@/TUTORIAL/004.png"
 import image005 from "@/TUTORIAL/005.png"
 import image1 from "@/TUTORIAL/1.png"
@@ -56,9 +56,9 @@ export default function Home() {
   const textImage15 = "Iremos inserir o fechamento do Instrutor colocando os dados biometricos."
   const textImage16 = "Aula Enviada para a Auditoria"
 
-  const textImage001 = "Na Intranet, crie um 'Novo Atendimento'"
-  const textImage002 = "Selecione a ocorrencia 'Verificação de equipamento defeituoso' "
-  const textImage003 = "Com a ocorrencia selecionada, insira os dados do veiculo e dados do operador."
+  const textImage001 = "Abaixo podemos analisar que a caixa de abertura de aula está disponivel pois o sistema identificou que não existe nenhuma pendência para abertura de aula."
+  const textImage002 = "Quando selecionamos uma aula para abrir, o sistema libera um botão logo acima para realização da aula."
+  const textImage003 = "Abaixo mostro uma situação onde uma aula não foi fechada. Com isso, a aula seguinte para aquele veiculo, instrutor e/ou aluno, não poderá ser aberta enquanto não realizar o fechamento/cancelamento da aula anterior."
   const textImage004 = "Após a finalização da aula web em contigencia, a aula ficará aguardando a resolução do protocolo."
   const textImage005 = "Com o protocolo finalizado, faremos o aceite, recuso ou exclusão da aula contingenciada."
   return (
